@@ -22,8 +22,10 @@ We are going to learn Bash Shell Scripting
 
 ##### Sed is available in two forms
 1. Display the changes on screen (preview only. does not execute the changes).
+
 sed 'ACTION' FILE 
-2. Edit the file 
+
+3. Edit the file 
 sed -i 'ACTION' FILE 
 
 ##### Action Criteria can be picked in two ways.
