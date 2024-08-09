@@ -21,9 +21,10 @@ We are going to learn Bash Shell Scripting
 4. Search and replace a word
 
 ##### Sed is available in two forms
-1. Display the changes on screen (preview only. does not execute the changes): sed 'ACTION' FILE 
-
-2. Edit the file: sed -i 'ACTION' FILE 
+1. Display the changes on screen 
+sed 'ACTION' FILE 
+2. Edit the file 
+sed -i 'ACTION' FILE 
 
 ##### Action Criteria can be picked in two ways.
 1. Line Number based 
@@ -58,16 +59,16 @@ sed -i '1d' passwd
 cat passwd
 sed -i '/nologin/ d' passwd
 cat passwd
-sed '1 i Hello World' passwd
-sed '/bash/ i Hello World' passwd
-sed '/bash/ a Hello World' passwd
-sed '/bash/ c Hello World' passwd
+sed '1 i Hello World' passwd - inserts a new line as the first line (denoted by 1) with Hello World as the content.
+sed '/bash/ i Hello World' passwd - wherever the text bash is found, inserts Hello World as the previous line. 
+sed '/bash/ a Hello World' passwd - wherever the text bash is found, appends Hello World to it. 
+sed '/bash/ c Hello World' passwd - wherever the text bash is found, copies the word Hello World (thus replacing the entire line with just Hello World.
 cat passwd
-sed 's/halt/poweroff/' passwd
-sed 's/halt/poweroff/g' passwd
-sed 's/bash/BASH/' passwd
-sed 's/bash/ksh/' passwd
-sed '/roboshop/ s/bash/ksh/' passwd
+sed 's/halt/poweroff/' passwd - s stands for substitute. replaces the word halt with poweroff. this only substitutes the first entry. does not recursively substitute all occurrences of the word halt. 
+sed 's/halt/poweroff/g' passwd - the usage of g allows us to replace all occurrences of halt with the word poweroff.
+sed 's/bash/BASH/' passwd - substitutes bash with BASH.
+sed 's/bash/ksh/' passwd - substitutes bash with ksh.
+sed '/roboshop/ s/bash/ksh/' passwd - searches for the roboshop and replaces bash to ksh in that line (if bash is present).
 ```
 
 
@@ -77,4 +78,3 @@ While we learn any coding, These 4 are kind of pillars to learn
 2. Functions 
 3. Conditions
 4. Loops 
-
