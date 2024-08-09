@@ -21,12 +21,9 @@ We are going to learn Bash Shell Scripting
 4. Search and replace a word
 
 ##### Sed is available in two forms
-1. Display the changes on screen (preview only. does not execute the changes).
+1. Display the changes on screen (preview only. does not execute the changes): sed 'ACTION' FILE 
 
-sed 'ACTION' FILE 
-
-3. Edit the file 
-sed -i 'ACTION' FILE 
+2. Edit the file: sed -i 'ACTION' FILE 
 
 ##### Action Criteria can be picked in two ways.
 1. Line Number based 
