@@ -15,10 +15,10 @@ We are going to learn Bash Shell Scripting
 
 
 #### SED 
-1. Delete a line 
+1. Delete a line (d)
 2. Add a  line 
-3. Change a line
-4. Search and replace a word
+3. Change a line (c)
+4. Search and replace a word (s)
 
 ##### Sed is available in two forms
 1. Display the changes on screen 
