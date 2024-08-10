@@ -67,5 +67,7 @@ echo Enviornment Variable z - $z
 # CamelCase - courseName
 # PascalCase - CourseName
 # snake case - course_name
-# UNIX Way ( Later Linux) - COURSE_NAME
+# UNIX Way ( Later Linux) - COURSE_NAME. this is how environment variables are usually defined.
+
+#Variable naming style should be uniform on the project and perhaps across the organization. mix and match should not be encouraged.
 
