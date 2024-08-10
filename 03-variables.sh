@@ -1,6 +1,6 @@
 # Variable is a name give to a string.
 # syntax: x=100, y=abc, z=2.0
-# In shell by default there are no data types. It is all a string
+# In shell by default there are no data types. It is all a string. In the above line, 100 is a number, abc are characters, 2.0 is a float value, but in shell, they are all string.
 
 # How to access a variable , $VARNAME - $x, $y, $z, or ${x}, ${y}, ${z}
 
