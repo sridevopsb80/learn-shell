@@ -3,6 +3,7 @@
 # In shell by default there are no data types. It is all a string. In the above line, 100 is a number, abc are characters, 2.0 is a float value, but in shell, they are all string.
 
 # How to access a variable , $VARNAME - $x, $y, $z, or ${x}, ${y}, ${z}
+#Below is an example where we are defining and calling the variables.
 
 name=DevOps
 faculty=John
