@@ -78,3 +78,6 @@ While we learn any coding, These 4 are kind of pillars to learn
 2. Functions 
 3. Conditions
 4. Loops 
+
+
+echo $? is used to check the exit status. exit status can be from 0 to 255. 0-success. 1 to 255-failure.

@@ -8,10 +8,10 @@
 
 
 # syntax : echo -e "\e[COLmMESSSAGE\e[0m"
-# -e to enable \e
+# -e to enable \e (escape sequence)
 # \e to enable color
 # [COLm - Which color to enable, replace COL with 31-36
-# [0m - 0 to reset the color.
+# [0m - 0 to reset (disable) the color.
 
 echo -e "\e[31mHello World in Red Color\e[0m"
 echo -e "\e[32mHello World in Green Color\e[0m"
