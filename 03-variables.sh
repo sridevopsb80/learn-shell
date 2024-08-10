@@ -11,9 +11,12 @@ faculty=John
 echo Welcome to $name Training
 echo ${name} Training - Faculty ${faculty}
 
-# When to use {} while accessing variable - In case if you have to print string with combination of variables
+##############################################
+
+# When to use {} while accessing variable - In case you have to print string with combination of variables
 apple=20
-echo Apple price - ${apple}Dollars
+echo Apple price - ${apple}Dollars #Using the {} here will isolate the apple from Dollars and make sure the apple variable is called.
+# The output of this will be Apple price - 20Dollars.
 
 # Variable Substitutions
 # Command Substitution  - You can declare a variable by executing a command and store the ouptut in a variable
