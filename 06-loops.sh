@@ -8,7 +8,7 @@ i=10
 while [ $i -gt 0 ]; do
   echo Hello - $i
   i=$(($i-1))
-  sleep 1
+  sleep 1 #used to introduce delay in output display
 done
 
 for i in apple banana orange ; do
