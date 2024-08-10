@@ -20,6 +20,8 @@ echo -e "\e[34mHello World in Blue Color\e[0m"
 echo -e "\e[35mHello World in Magenta Color\e[0m"
 echo -e "\e[36mHello World in Cyan Color\e[0m"
 
+# \n - used to introduce a new line
 echo -e "Hello\n\nWorld"
 
+# \t - used to introduce a tab space
 echo -e "Hello\t\tWorld"

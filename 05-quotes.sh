@@ -11,5 +11,8 @@ echo "*"
 # single quotes are literal quoting( strict quoting)
 # double quotes are liberal quoting( less strict quoting)
 a=10
-echo 'a is $a'
-echo "a is $a"
+echo 'a is $a' #will print a is $a
+echo "a is $a" #will print a is 10
+
+#use \ to escape using something as a varaible
+echo "That will be \$ $a"
