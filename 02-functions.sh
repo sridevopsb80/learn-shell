@@ -34,6 +34,6 @@ DEMO() {
   echo First Argument - $1
 }
 
-DEMO abc
+DEMO abc # the variable value abc is being passed while calling the function.
 
 
