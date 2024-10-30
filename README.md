@@ -53,11 +53,11 @@ cd /tmp
 cp /etc/passwd .
 ls
 cat passwd
-sed '1d' passwd
+sed '1d' passwd - displays the output for deleting the first line in passwd file
 cat passwd
-sed -i '1d' passwd
+sed -i '1d' passwd - edits the file passwd and deletes the first line. 
 cat passwd
-sed -i '/nologin/ d' passwd
+sed -i '/nologin/ d' passwd - edits the file passwd and deletes the lines with the string nologin
 cat passwd
 sed '1 i Hello World' passwd - inserts a new line as the first line (denoted by 1) with Hello World as the content.
 sed '/bash/ i Hello World' passwd - wherever the text bash is found, inserts Hello World as the previous line. 
