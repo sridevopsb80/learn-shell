@@ -16,9 +16,9 @@ We are going to learn Bash Shell Scripting
 
 #### SED 
 1. Delete a line (d)
-2. Add a  line (i)
+2. Add a  line (i). i stands for insert. a can be used for append.
 3. Change a line (c)
-4. Search and replace a word (s)
+4. Search and replace a word (s). s stands for substitute.
 
 ##### Sed is available in two forms
 1. Display the changes on screen 
