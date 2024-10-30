@@ -16,7 +16,7 @@ We are going to learn Bash Shell Scripting
 
 #### SED 
 1. Delete a line (d)
-2. Add a  line 
+2. Add a  line (i)
 3. Change a line (c)
 4. Search and replace a word (s)
 
