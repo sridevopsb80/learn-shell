@@ -82,3 +82,40 @@ While we learn any coding, These 4 are kind of pillars to learn
 
 
 echo $? is used to check the exit status. exit status can be from 0 to 255. 0-success. 1 to 255-failure.
+
+Conditions:
+
+1. simple if
+
+```text
+Syntax:
+if [expression]; then 
+  commands
+fi
+```
+
+2. if-else
+
+```text
+Syntax:
+if [expression]; then 
+  commands
+else
+  commands
+fi
+```
+
+3. else-if
+
+```text
+Syntax:
+
+if [expression1]; then 
+  commands
+elif [expression2];
+then 
+  commands
+else
+  commands
+fi
+```
