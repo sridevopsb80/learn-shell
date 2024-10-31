@@ -18,6 +18,7 @@ echo ${name} Training - Faculty ${faculty}
 apple=20
 echo Apple price - ${apple}Dollars #Using the {} here will isolate the apple from Dollars and make sure the apple variable is called.
 # The output of this will be Apple price - 20Dollars.
+# If we use $appleDollars, this will considered a separate variable and unless it is defined, it will be returned as empty.
 
 #############################################
 
