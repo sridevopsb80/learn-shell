@@ -119,7 +119,7 @@ else
   commands
 fi
 ```
-###### if conditions - expressions
+##### if conditions - expressions
 
 1. Number expressions: -eq, -ne, -lt, -le, -gt, -ge. Examples: [ 1 -eq 2 ], [ 2 -ge 2 ], [ 3 -lt 5 ].
 2. String expressions: ==, !=, -z. Examples: [ abc == abc ], [ xyz != abc ], [ -z $var ].
