@@ -32,13 +32,13 @@ sed -i 'ACTION' FILE
 
 Example like, If we want to delete a line.
 
-For line no criteria 
+For line no criteria:
 
-sed '1 d' file 
+sed '1 d' file - deletes the first line.
 
 For search string criteria 
 
-sed '/root/ d' file
+sed '/root/ d' file - deletes lines with string root.
 
 
 Both the above examples will be just displaying the output, However if we want to edit the file 
