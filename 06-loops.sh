@@ -16,7 +16,9 @@ for i in apple banana orange ; do
   sleep 1
 done
 
-#items=$(cat file)
+#here we are using variable items to load the data from file. this is helpful to load huge data
+#
+# items=$(cat file)
 #
 #for i in $items ; do
 #  echo Fruit Name - $i
