@@ -30,16 +30,11 @@ sed -i 'ACTION' FILE
 1. Line Number based 
 2. String search based
 
-Example like, If we want to delete a line.
+Example: If we want to delete a line.
 
-For line no criteria:
+For line no criteria: sed '1 d' file - deletes the first line.
 
-sed '1 d' file - deletes the first line.
-
-For search string criteria 
-
-sed '/root/ d' file - deletes lines with string root.
-
+For search string criteria: sed '/root/ d' file - deletes lines with string root.
 
 Both the above examples will be just displaying the output, However if we want to edit the file 
 
