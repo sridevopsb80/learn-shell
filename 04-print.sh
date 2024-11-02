@@ -1,4 +1,4 @@
-# Print Color,, Here are the color codes
+# Print Color. Here are the color codes
 # RED         31
 # GREEN       32
 # YELLOW      33

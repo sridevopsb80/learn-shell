@@ -16,7 +16,8 @@ echo ${name} Training - Faculty ${faculty}
 # When to use {} while accessing variable - In case you have to print string with combination of variables
 
 apple=20
-echo Apple price - ${apple}Dollars #Using the {} here will isolate the apple from Dollars and make sure the apple variable is called.
+echo Apple price - ${apple}Dollars
+#Using the {} here will isolate the apple from Dollars and make sure the apple variable is called.
 # The output of this will be Apple price - 20Dollars.
 # If we use $appleDollars, this will considered a separate variable and unless it is defined, it will be returned as empty.
 
@@ -30,7 +31,8 @@ echo Apple price - ${apple}Dollars #Using the {} here will isolate the apple fro
 # Arithmetic Substitution  - You can declare a variable by solving the given arithmetic expression
 # syntax: var=$((1+2-3/4)). notice that we are using double brackets here and not single bracket like the command substitution
 
-date=$(date) #calls the date command in bash
+date=$(date)
+#calls the date command in bash
 echo Today date is - $date
 
 add=$((2+3+4))
@@ -50,14 +52,18 @@ echo Value of y from CLI - $y
 #
 # bash 03-variables.sh 100 200  (These variables $1, $2 .. $n, $*, $# are called as special variables in shell)
 
-echo First Argument - $1 #the value is taken from the first variable value provided in the cli and is printed. 100 is the output.
-echo Second Argument - $2 #the value is taken from the second variable value provided in the cli and is printed. 200 is the output.
-echo All arguments - $* #all values provided in the cli will be printed. 100 200 will be the output.
-echo Argument Count - $# #prints the number of arguments provided in the cli. 2 is the output.
+echo First Argument - $1
+#the value is taken from the first variable value provided in the cli and is printed. 100 is the output.
+echo Second Argument - $2
+#the value is taken from the second variable value provided in the cli and is printed. 200 is the output.
+echo All arguments - $*
+#all values provided in the cli will be printed. 100 200 will be the output.
+echo Argument Count - $#
+#prints the number of arguments provided in the cli. 2 is the output.
 
 # Approach 3 - export the variable as an environment variable
 #
-# export z=500 ; bash 03-variables.sh
+export z=500 ; bash 03-variables.sh
 # by using export, you are converting the variable into an environment variable. this variable will be accessible by all scripts using this environment
 
 echo Enviornment Variable z - $z
