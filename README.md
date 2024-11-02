@@ -83,7 +83,7 @@ While we learn any coding, These 4 are kind of pillars to learn
 
 echo $? is used to check the exit status. exit status can be from 0 to 255. 0-success. 1 to 255-failure.
 
-##### Conditions
+### Conditions
 
 1. simple if
 
@@ -119,7 +119,7 @@ else
   commands
 fi
 ```
-##### if conditions - expressions
+#### if conditions - expressions
 
 1. Number expressions: -eq, -ne, -lt, -le, -gt, -ge. Examples: [ 1 -eq 2 ], [ 2 -ge 2 ], [ 3 -lt 5 ].
 2. String expressions: ==, !=, -z. Examples: [ abc == abc ], [ xyz != abc ], [ -z $var ].
