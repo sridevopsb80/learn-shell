@@ -21,10 +21,9 @@ We are going to learn Bash Shell Scripting
 4. Search and replace a word (s). s stands for substitute. only substitutes the first occurrence in a line and does not replace all occurrences in the same line. to recursively substitute a word in the same line, use s along with g, where s is used before the string and g is used after the string.
 
 ##### Sed is available in two forms
-1. Display the changes on screen 
-sed 'ACTION' FILE 
-2. Edit the file 
-sed -i 'ACTION' FILE 
+1. Display the changes on screen - sed 'ACTION' FILE 
+
+2. Edit the file - sed -i 'ACTION' FILE 
 
 ##### Action Criteria can be picked in two ways.
 1. Line Number based 
