@@ -17,7 +17,7 @@ for i in apple banana orange ; do
   sleep 1
 done
 
-#here we are using variable items to load the data from file. this is helpful to load huge data
+#if we have a file with huge data, we can use a variable (items) to load the data from file as below
 #
 # items=$(cat file)
 #
